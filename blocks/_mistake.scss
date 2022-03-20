@@ -11,7 +11,14 @@
         
     }
     &__top {
-        display: flex;
+        position: relative;
+    }
+    &__smile {
+        position: absolute;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 55px;
+        color: rgba(112, 112, 112, 0.1);
     }
     &__title {
         font-weight: 600;
@@ -19,6 +26,7 @@
         line-height: 30px;
         color: $black;
         margin-bottom: 30px;
+        margin-left: 60px;
     }
     &__text {
         font-weight: 400;
@@ -40,10 +48,5 @@
         letter-spacing: -0.03em;
         margin-left: 56px;
         padding: 12px 23px;
-    }
-    & img {
-        width: 26px;
-        height: 55px;
-        margin-right: 30px;
     }
 }
