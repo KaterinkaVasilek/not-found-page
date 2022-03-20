@@ -1,0 +1,49 @@
+.mistake {
+    margin-top: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    &__content {
+        width: 518px;
+        
+    }
+    &__top {
+        display: flex;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 30px;
+        color: $black;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: $black;
+        margin-bottom: 30px;
+        margin-left: 56px;
+    }
+    &__btn {
+        width: 260px;
+        background: $blue;
+        border: none;
+        border-radius: 25px;
+        color: $white;
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 26px;
+        letter-spacing: -0.03em;
+        margin-left: 56px;
+        padding: 12px 23px;
+    }
+    & img {
+        width: 26px;
+        height: 55px;
+        margin-right: 30px;
+    }
+}
