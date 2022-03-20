@@ -91,7 +91,7 @@ select {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .mistake__content {
